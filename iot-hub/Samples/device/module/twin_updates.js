@@ -43,7 +43,7 @@ ModuleClient.fromEnvironment(Protocol, function (err, client) {
               firmwareVersion:'1.2.1',
               weather:{
                 temperature: 72,
-                humidity: 17
+                heartbeat: 17
               }
             };
 

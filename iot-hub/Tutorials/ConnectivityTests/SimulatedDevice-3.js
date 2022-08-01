@@ -76,10 +76,10 @@ client.open(function (err) {
     setInterval(function(){
       // Simulate telemetry.
       var temperature = 20 + (Math.random() * 15);
-      var humidity = 60 + (Math.random() * 20);
+      var heartbeat = 60 + (Math.random() * 20);
 
       // Add the telemetry to the message body.
-      var data = JSON.stringify({ temperature: temperature, humidity: humidity });
+      var data = JSON.stringify({ temperature: temperature, heartbeat: heartbeat });
       var message = new Message(data);
 
       console.log('Sending message: ' + message.getData());

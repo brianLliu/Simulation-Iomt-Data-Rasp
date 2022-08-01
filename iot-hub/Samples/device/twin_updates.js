@@ -189,7 +189,7 @@ client.open(function(err) {
           firmwareVersion:'1.2.2',
           weather:{
             temperature: 72,
-            humidity: 17
+            heartbeat: 17
           }
         };
 

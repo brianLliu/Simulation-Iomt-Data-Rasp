@@ -67,7 +67,7 @@ function sendMessage(){
   var temperature = 20 + (Math.random() * 15);
   var message = new Message(JSON.stringify({
     temperature: temperature,
-    humidity: 60 + (Math.random() * 20)
+    heartbeat: 60 + (Math.random() * 20)
   }));
 
   // Add a custom application property to the message.
